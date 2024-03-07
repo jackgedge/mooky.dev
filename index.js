@@ -7,7 +7,6 @@ h1Elements.forEach(function(h1Element) {
     h1Element.addEventListener('mouseover', function() {
         // Make text bold
         this.style.fontWeight = 'bold';
-        // Make text horizontal
         // Make text italic
         this.style.fontStyle = 'italic';
     });
